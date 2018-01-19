@@ -19,7 +19,7 @@
 'use strict';
 
 var ACTIVITI = ACTIVITI || {};
-
+var _context_path ="/"+window.location.pathname.split("/")[1];
 ACTIVITI.CONFIG = {
-	'contextRoot' : '/designer/service',
+	'contextRoot' : _context_path+'/service',
 };
